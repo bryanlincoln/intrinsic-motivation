@@ -14,7 +14,7 @@ To read the full report, [click here](https://github.com/bryanlincoln/undergradu
 
 ## Usage
 
-To run the code, simply execute `python main.py` after installing all the requirements. There are many customizable hyperparemeters and configurations. You can see them with `python main.py --help`.
+To run the code, simply execute `python main.py` after installing all the requirements. There are many customizable hyperparemeters and configurations. You can see them with `python main.py --help`. The exact hyperparameters for this study's experiments can be found in the folder `experiments`.
 
 ## Credits
 
