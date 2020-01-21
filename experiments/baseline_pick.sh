@@ -1,0 +1,2 @@
+# BASELINE
+python main.py --experiment-name "PickAndPlaceBaseline" --env-id "FetchPickAndPlaceSparse-v3" --use-gae --gamma 0.95 --hidden-size 128 --entropy-coef 0.01 --num-processes 32 --num-steps 2048 --num-env-steps 20000000 --use-tensorboard --debug --pi-lr 1e-4 --v-lr 1e-3 --dyn-lr 1e-4 --grad-norm-max 5. --seed 1537

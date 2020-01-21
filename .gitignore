@@ -1,0 +1,8 @@
+**/__pycache__
+**pyc
+**npy
+gym-fetch
+.directory
+MUJOCO_LOG.txt
+.vscode/*
+.ipynb_checkpoints/*
