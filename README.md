@@ -26,6 +26,11 @@ This code was based on and adapted from
 -   [OpenAI Baselines](https://github.com/openai/baselines)
 -   [Chip Schaff's Deep Learning Library](https://github.com/cbschaff/pytorch-dl)
 
+The inspiration and theoretic background was mainly based on
+
+- [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
+- [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)
+
 ## Results
 
 ### Learned policies
