@@ -1,8 +1,12 @@
 # Intrinsic motivation for robotic manipulation learning with sparse rewards
 
-As my undergraduate thesis, I studied the impact of curiosity and intrinsic motivation as exploration strategy for deep reinforcement learning agents on sparse-reward robotic manipulator environments. We found that this approach encourages increasing exploratory behaviors even after the goal tasks were learned. Furthermore, we found that adding information about other objects' states into the agent's observation is crucial for learning complex behaviors when no dense reward signal is provided.
+As my undergraduate thesis, I studied the impact of curiosity and intrinsic motivation as exploration strategy for deep reinforcement learning agents on sparse-reward robotic manipulator environments. We found that this approach encourages increasing exploratory behaviors even after the goal tasks were learned. Furthermore, we found that adding information about other objects' states into the agent's observation is crucial for learning complex behaviors when no dense reward signal is provided. 
 
 To read the full report, [click here](https://github.com/bryanlincoln/undergraduate-thesis/blob/master/Text%20-%20Intrinsic%20motivation%20for%20robotic%20manipulation%20learning%20with%20sparse%20rewards.pdf) (Portuguese).
+
+<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.gif" width="280" height="180">
+
+> Learned policies for the tasks Pick And Place (left), Push (center) and Reach (right).
 
 ## Requirements
 
@@ -32,12 +36,6 @@ The inspiration and theoretic background was mainly based on
 - [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)
 
 ## Results
-
-### Learned policies
-
-Pick And Place Task (left), Push Task (center) and Reach (right).
-
-<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.gif" width="280" height="180">
 
 ### Success Rate Charts
 
