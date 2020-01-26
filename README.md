@@ -54,3 +54,5 @@ Pick And Place Task (left), Push Task (center) and Reach (right). Blue lines are
 Pick And Place Task (left), Push Task (center) and Reach (right).
 
 <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick_int.png" width="280" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push_int.png" width="280" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach_int.png" width="280" height="200">
+
+The interpretation of these curves can be found in my full report.
