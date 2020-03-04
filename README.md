@@ -1,8 +1,12 @@
 # Intrinsic motivation for robotic manipulation learning with sparse rewards
 
-As my undergraduate thesis, I studied the impact of curiosity and intrinsic motivation as exploration strategy for deep reinforcement learning agents on sparse-reward robotic manipulator environments. We found that this approach encourages increasing exploratory behaviors even after the goal tasks were learned. Furthermore, we found that adding information about other objects' states into the agent's observation is crucial for learning complex behaviors when no dense reward signal is provided.
+As my undergraduate thesis, I studied the impact of curiosity and intrinsic motivation as exploration strategy for deep reinforcement learning agents on sparse-reward robotic manipulator environments. We found that this approach encourages increasing exploratory behaviors even after the goal tasks were learned. Furthermore, we found that adding information about other objects' states into the agent's observation is crucial for learning complex behaviors when no dense reward signal is provided. 
 
-To read the whole analysis, [click here](https://github.com/bryanlincoln/undergraduate-thesis/blob/master/Text%20-%20Intrinsic%20motivation%20for%20robotic%20manipulation%20learning%20with%20sparse%20rewards.pdf) (Portuguese).
+To read the full report, [click here](https://github.com/bryanlincoln/undergraduate-thesis/blob/master/Text%20-%20Intrinsic%20motivation%20for%20robotic%20manipulation%20learning%20with%20sparse%20rewards.pdf) (Portuguese).
+
+<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.gif" width="280" height="180">
+
+> Learned policies for the tasks Pick And Place (left), Push (center) and Reach (right).
 
 ## Requirements
 
@@ -14,7 +18,7 @@ To read the whole analysis, [click here](https://github.com/bryanlincoln/undergr
 
 ## Usage
 
-To run the code, simply execute `python main.py` after installing all the requirements. There are many customizable hyperparemeters and configurations. You can see them with `python main.py --help`.
+To run the code, simply execute `python main.py` after installing all the requirements. There are many customizable hyperparemeters and configurations. You can see them with `python main.py --help`. The exact hyperparameters for this study's experiments can be found in the folder `experiments`.
 
 ## Credits
 
@@ -26,13 +30,12 @@ This code was based on and adapted from
 -   [OpenAI Baselines](https://github.com/openai/baselines)
 -   [Chip Schaff's Deep Learning Library](https://github.com/cbschaff/pytorch-dl)
 
+The inspiration and theoretic background was mainly based on
+
+- [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
+- [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)
+
 ## Results
-
-### Learned policies
-
-Pick And Place Task (left), Push Task (center) and Reach (right).
-
-<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.gif" width="280" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.gif" width="280" height="180">
 
 ### Success Rate Charts
 
@@ -51,3 +54,5 @@ Pick And Place Task (left), Push Task (center) and Reach (right). Blue lines are
 Pick And Place Task (left), Push Task (center) and Reach (right).
 
 <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick_int.png" width="280" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push_int.png" width="280" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach_int.png" width="280" height="200">
+
+The interpretation of these curves can be found in my full report.
