@@ -24,7 +24,7 @@ To run the code, simply execute `python main.py` after installing all the requir
 
 This code was based on and adapted from
 
--   [Jon Michaux's implementation of intrinsic motivation](https://github.com/jmichaux/intrinsic-motivation)
+-   [Jon Michaux's implementation of intrinsic motivation](https://github.com/jmichaux/intrinsic-motivation) (which was used as starting point for running the experiments of this repo)
 -   [Santhosh Ramakrishnan's implementation of curiosity](https://github.com/srama2512/curiosity-driven-exploration)
 -   [Ilya Kostrikov' implementation of recent RL algorithms](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail)
 -   [OpenAI Baselines](https://github.com/openai/baselines)
