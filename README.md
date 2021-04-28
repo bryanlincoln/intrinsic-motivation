@@ -43,7 +43,7 @@ Pick And Place Task (left), Push Task (center) and Reach (right). Blue lines are
 
 <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.png" width="260" height="200">
 
-### Entropy Charts
+### [Entropy](https://arxiv.org/abs/1811.11214) Charts
 
 Pick And Place Task (left), Push Task (center) and Reach (right). Blue lines are results for vanilla PPO (baseline) and red lines for PPO + intrinsic motivation.
 
