@@ -1,11 +1,13 @@
 # Intrinsic motivation for robotic manipulation learning with sparse rewards
 
-As my undergraduate thesis, I studied the impact of curiosity and intrinsic motivation as exploration strategy for deep reinforcement learning agents on sparse-reward robotic manipulator environments. We found that this approach encourages increasing exploratory behaviors even after the goal tasks were learned. Furthermore, we found that adding information about other objects' states into the agent's observation is crucial for learning complex behaviors when no dense reward signal is provided. 
+As my undergraduate thesis, I studied the impact of curiosity and intrinsic motivation as exploration strategy for deep reinforcement learning agents on sparse-reward robotic manipulator environments. We found that this approach encourages increasing exploratory behaviors even after the goal tasks were learned. Furthermore, we found that adding information about other objects' states into the agent's observation is crucial for learning complex behaviors when no dense reward signal is provided. This study was inspired by the [Robot open-Ended Autonomous Learning](https://www.aicrowd.com/challenges/robot-open-ended-autonomous-learning-real) competition.
 
 To read the full report, [click here](https://github.com/bryanlincoln/undergraduate-thesis/blob/master/Text%20-%20Intrinsic%20motivation%20for%20robotic%20manipulation%20learning%20with%20sparse%20rewards.pdf) (Portuguese).
 
-<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.gif" width="260" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.gif" width="260" height="180"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.gif" width="260" height="180">
-
+<div align="center">
+<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.gif" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.gif" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.gif" width="230" height="150">
+</div>
+  
 > Learned policies for the tasks Pick And Place (left), Push (center) and Reach (right).
 
 ## Requirements
@@ -41,18 +43,24 @@ The inspiration and theoretic background was mainly based on
 
 Pick And Place Task (left), Push Task (center) and Reach (right). Blue lines are results for vanilla PPO (baseline) and red lines for PPO + intrinsic motivation.
 
-<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.png" width="260" height="200">
+<div align="center">
+<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick.png" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push.png" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach.png" width="230" height="150">
+</div>
 
 ### [Entropy](https://arxiv.org/abs/1811.11214) Charts
 
 Pick And Place Task (left), Push Task (center) and Reach (right). Blue lines are results for vanilla PPO (baseline) and red lines for PPO + intrinsic motivation.
 
-<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick_ent.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push_ent.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach_ent.png" width="260" height="200">
+<div align="center">
+<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick_ent.png" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push_ent.png" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach_ent.png" width="230" height="150">
+</div>
 
 ### Intrinsic Reward Charts
 
 Pick And Place Task (left), Push Task (center) and Reach (right).
 
-<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick_int.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push_int.png" width="260" height="200"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach_int.png" width="260" height="200">
-
+<div align="center">
+<img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/pick_int.png" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/push_int.png" width="230" height="150"> <img src="https://github.com/bryanlincoln/undergraduate-thesis/blob/master/fig/preview/reach_int.png" width="230" height="150">
+</div>
+  
 The interpretation of these curves can be found in my full report.
